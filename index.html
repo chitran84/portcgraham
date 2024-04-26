@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Pop up message start -->
 
+<!-- Pop up message end -->
 <head>
     <meta charset="utf-8">
     <title>Chitran - AUS Government Sector</title>
@@ -31,8 +33,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-
+</div>
 <body>
+
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -71,7 +74,7 @@
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-end">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">Hi, Chitran here, the Creative Strategist</h1>
+                            <h1 class="text-white mb-4 animated slideInDown">Hi, Chitran here, the creative strategist and developer</h1>
                             <p class="text-white pb-3 animated slideInDown">I help build bridges for all abilities in the digital world, closing the gap between imagination and execution. I craft digital solutions that connect and inspire inclusive users.</p>
                             <a href="#feature" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
                             <a href="tel:+61426538950" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Me</a>
@@ -517,7 +520,7 @@
                         <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/Aboriginal.png"style="width: 7%; height: 10%;">
                         <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/TSI_flag.png"style="width: 7%; height: 10%;">
                         <h1 class="text-white mb-4 animated slideInDown">Acknowledgment of Country</h1>
-                            <p class="text-white pb-3 animated slideInDown">I wanna begin with an acknowledgement of country. And I'd like to begin by acknowledging the traditional custodians of the unseated land skies waterways where we come together, and I'd like to pay my respects to ancestors and elders of the wurundjeri people, which is where I'm presenting this portfolio today, as well as the traditional custodians of the lands that you may be joining us from.</p>
+                            <p class="text-white pb-3 animated slideInDown">I want to begin with an acknowledgement of country and I'd like to begin by acknowledging the traditional custodians of the unseated land skies waterways where we come together, and I'd like to pay my respects to ancestors and elders of the wurundjeri people, which is where I'm presenting this portfolio today, as well as the traditional custodians of the lands that you are from.</p>
             </div>
             <div class="container px-lg-5">
                 <div class="copyright">
@@ -548,6 +551,18 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script>
+        // Function to close the popup
+        function closePopup() {
+          document.getElementById("launchPopup").style.display = "none";
+        }
+        
+        // Script to display the popup on page load (optional)
+        window.onload = function() {
+          document.getElementById("launchPopup").style.display = "flex";
+        }
+        </script>
+      </body>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
